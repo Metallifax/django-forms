@@ -1,0 +1,15 @@
+{
+  // Don't forget to install pylint-django
+  "python.pythonPath": "/Users/mathewforgione/envs/django-test/bin/python",
+  "files.associations": {
+    "**/*.html": "html",
+    "**/templates/**/*.html": "django-html",
+    "**/templates/**/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ]
+}
